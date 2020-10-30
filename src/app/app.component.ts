@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // ngModel syncronises the value of the email input with email
   email: string;
+
+  onSubmit() {
+    console.log(this.email);
+  }
 }
